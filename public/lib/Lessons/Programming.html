@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>
+      Teens For Teens By GILT
+    </title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="/Style/style.css">
+    <div class="topnav">
+      <a class="active" href="\index.html">ပင်မစာမျက်နာ</a>
+      <div class="find">
+        <a class="quizz" href="Lessons\Exam.html">မေးခွန်းများ</a>
+      </div>
+      <div class="dropmenu">
+        <button onclick="myFunction()" class="drop">သင်ခန်းစာများ</button>
+        <div id="DropDown" class="dropStylecontact">
+          
+          <a href="\Lessons\Web_Design.html">WebSite ရေးသားနည်း</a>
+          <a href="\Lessons\Programming.html">Programming အခြေခံများ</a>
+          <a href="\Lessons\Computer_Science.html">Computer Science အခြေခံ</a>‌
+          
+        </div>
+      </div>
+      <a class="Hi" href="\UI\AboutUS.html">ကျွန်ုပ်တို့အကြောင်း</a>
+      <a class="hello" href="\UI\Contact.html">ဆက်သွယ်ရန်</a> 
+    </div>      
+
+  
+    <!--<label class="Toggleswitch">
+          <input type="checkbox">
+          <span class="slider round"></span>
+          </label>
+        <link rel="stylesheet" href="Style\FORToggle.css">
+   -->
+    <script>
+          /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+          function myFunction() {
+            document.getElementById("DropDown").classList.toggle("show");
+          }
+  
+          // Close the dropdown if the user clicks outside of it
+          window.onclick = function (event) {
+            if (!event.target.matches('.drop')) {
+              var dropdowns = document.getElementsByClassName("dropStylecontact");
+              var i;
+              for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            }
+          }
+    </script>
+    <h4>WebSite ရေးသားနည်းနဲ့ Web Development</h4>
+    <b><p>WebSite ရေးသားခြင်းဆိုတာ Full-Stack Developer တိုင်းသိသင့်သည့်နည်းပညာပါ။ Web Development တွင်များသောအားဖြင့် HTML, CSS, JavaScript, BootStrap, Phpနှင့် JQuery စသဖြင့် languages များသုံးကြပါသည်။ </p></b>
+      
+      <p>စားသုံးသူ အတွက်နည်းလမ်းများ: Video ဒေါင်းလုပ် လုပ်နည်း ကတော့အစက်၃ပျောက်ကိုနှိပ်ပြီး Download Video ကိုနှိပ်ပါ (EN: How to Download: Once you have enter the video, click the 3 dots and you will see download button, and then click.)</p>
+      <br>
+    <h4>Websiteနှင့်ပတ်သက်သော သင်ခန်းစာများ</h4>
+    <center><p><b>Scratch သင်ခန်းစာ(၁)</b></p></center>
+    <center>
+  <video src=""controls width="250px"> </video><br>
+      <p></p>
+      <br><center><p><b>Python သင်ခန်းစာ(၂)</b></p></center>
+      <video src="" controls width="250px"></video><br>
+      <br><center><p><b>CFoundation သင်ခန်းစာ(၃)</b></p></center>
+      <video src="" controls width="250px"></video><br>
+      <br><center><p><b>JavaFoundation သင်ခန်းစာ(၄)</b></p></center>
+      <video src="" controls width="250px"></video><br>
+      <br><center><p><b>C# သင်ခန်းစာ(၅)</b></p></center>
+      <video src="" controls width="250px"></video><br>
+     
+</center>
+    </b>
+  </body>
+  </html>
